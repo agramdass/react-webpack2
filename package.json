@@ -1,0 +1,56 @@
+{
+  "name": "react-webpack2",
+  "version": "0.0.1",
+  "description": "React Webpack 2 template",
+  "main": "index.js",
+  "keywords": [
+    "React",
+    "Webpack",
+    "ES6",
+    "ES2015",
+    "Modules",
+    "Hot loading"
+  ],
+  "author": "Ashley G Ramdass <agramdass@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config webpack/dev.config.js --watch",
+    "build": "cross-env NODE_ENV=production webpack --config webpack/prod.config.js --progress --display-error-details --color"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "babel-core": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-syntax-async-functions": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "clean-webpack-plugin": "^0.1.10",
+    "copy-webpack-plugin": "^3.0.1",
+    "cross-env": "^2.0.1",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.5.0",
+    "eslint-loader": "^1.5.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-react": "^6.3.0",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "json-loader": "^0.5.4",
+    "react-hot-loader": "^3.0.0-beta.5",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.5",
+    "webpack-merge": "^0.14.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.13.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "redux": "^3.6.0"
+  }
+}

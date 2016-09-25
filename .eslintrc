@@ -1,0 +1,44 @@
+{
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "plugins": [
+    "babel",
+    "react"
+  ],
+  "rules": {
+    "indent": [
+      2,
+      2
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "linebreak-style": [
+      2,
+      "unix"
+    ],
+    "semi": [
+      2,
+      "always"
+    ],
+    "no-unused-vars": 1,
+    "no-console": "off",
+    "babel/generator-star-spacing": 1,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+  "globals": {
+    "Promise": true,
+    "SystemJS": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "extends": "eslint:recommended"
+}

@@ -16,7 +16,6 @@ Includes the following but not limited to:
 
 
 ## How to use this
----
 - Clone the repository: git clone https://github.com/agramdass/react-webpack2 my-new-project
 - Install the dependencies: cd my-new-project && npm install
 - Start webpack: npm run start
@@ -26,7 +25,6 @@ Includes the following but not limited to:
 - Happy with your changes and ready for bundling: npm run build
 
 ## Make it yours and better
----
 - Fork it, change it and make it yours.
 - You think workflow / things could be done better: send a pull request
 
